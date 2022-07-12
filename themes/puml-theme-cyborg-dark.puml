@@ -378,7 +378,7 @@ skinparam note {
 	BorderThickness 1
 	BackgroundColor $INFO
 	BorderColor $INFO_DARK
-	FontColor $WHITE
+	FontColor $INFO_TEXT
 }
 !endsub
 
