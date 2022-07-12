@@ -9,11 +9,11 @@
 
 !if %not(%variable_exists("$BGCOLOR"))
 !$BGCOLOR = "#303030"
-!$BGDARK = "#202020"
+!$BGCOLORDARK = "#202020"
 !endif
 
 skinparam backgroundColor $BGCOLOR
-skinparam useBetaStyle false
+skinparam useBetaStyle true
 skinparam shadowing true
 
 ''
@@ -40,6 +40,7 @@ skinparam shadowing true
 !$DANGER = "#CC0000"
 !$LIGHT = "#222"
 !$DARK = "#ADAFAE"
+!$BLACK = "#000
 
 '' *_DARK = tint (lighter) of the main color of 80%
 ''          where TINT is calculated by clr + (255-clr) * tint_factor
@@ -292,7 +293,7 @@ skinparam sequence {
 	StartColor $PRIMARY
 	EndColor $PRIMARY
 	''
-	BoxBackgroundColor $BGDARK
+	BoxBackgroundColor $BGCOLORDARK
 	BoxBorderColor $DARK
 	BoxFontColor $DARK
 	''
