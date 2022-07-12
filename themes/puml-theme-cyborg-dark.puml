@@ -40,7 +40,7 @@ skinparam shadowing true
 !$DANGER = "#CC0000"
 !$LIGHT = "#222"
 !$DARK = "#ADAFAE"
-!$BLACK = "#000
+!$BLACK = "#000"
 
 '' *_DARK = tint (lighter) of the main color of 80%
 ''          where TINT is calculated by clr + (255-clr) * tint_factor
